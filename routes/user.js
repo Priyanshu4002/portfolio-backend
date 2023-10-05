@@ -20,8 +20,8 @@ router.post("/contact",async(req,res)=>{
 
     res.status(201).json({
         success:true,
-        message:"Message send successfully"
-    })
+        message:"message send successfully",
+    });
     } catch (error) {
         console.log(error);
     }
